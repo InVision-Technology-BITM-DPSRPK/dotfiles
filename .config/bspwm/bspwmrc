@@ -22,3 +22,5 @@ nitrogen --restore &
 dunst &
 sh $HOME/.config/polybar/launch.sh &
 orca &
+blueman-applet &
+

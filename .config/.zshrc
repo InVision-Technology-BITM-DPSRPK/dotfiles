@@ -44,9 +44,10 @@ alias ports='netstat -tulanp'
 alias header='curl -I'
 alias headerc='curl -I --compress'
 alias sysupdate="sudo dnf upgrade"
-alias root='sudo -i'
-alias su='sudo -i'
-alias please="sudo -i"
+alias sudo="sudo " 
+alias root='sudo'
+alias su='sudo'
+alias please="sudo"
 alias filemanager="ranger ~"
 alias psa="ps auxf"
 alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
@@ -67,6 +68,7 @@ alias push='git push origin'
 alias stat='git status'  # 'status' is protected name so using 'stat' instead
 alias tag='git tag'
 alias newtag='git tag -a'
+alias helpme='vim ~/.help/help.txt'
 
 extract()
 {
