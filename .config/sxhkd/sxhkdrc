@@ -76,6 +76,11 @@ super + b
 super + e
         gnome-terminal -- bash -c "ranger; exec bash"
 
+# launch help
+super + F1
+        gnome-terminal -- bash -c "vim ~/.config/help; exec bash"
+
+
 # launch mail application
 super + m
 	thunderbird
