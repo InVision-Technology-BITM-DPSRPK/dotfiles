@@ -80,6 +80,10 @@ super + e
 super + m
 	thunderbird
 
+# launch office application
+super + k
+        libreoffice
+
 # launch screen reader
 super + o
 	orca
